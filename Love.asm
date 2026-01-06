@@ -10,7 +10,7 @@ MessageBoxA PROTO :QWORD, :QWORD, :QWORD, :QWORD
 
 ; ---- Data Section ----
 .data
-    msg     db "I love u ", 0
+    msg     db "I love u very much , happy new year and all the best", 0
     title   db "Message", 0
 
 ; ---- Code Section ----
