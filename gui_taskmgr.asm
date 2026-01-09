@@ -90,9 +90,6 @@ def:
     ret
 WndProc ENDP
 
-; ------------------------
-; Window Class Struct
-; ------------------------
 wc:
     dq SIZEOF_WNDCLASSEX
     dq 0

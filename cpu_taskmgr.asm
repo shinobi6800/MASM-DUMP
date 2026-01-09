@@ -168,9 +168,6 @@ done:
     call ExitProcess
 main ENDP
 
-; ------------------------
-; PrintString
-; ------------------------
 PrintString PROC
     sub rsp, 28h
     xor r8, r8
@@ -187,9 +184,7 @@ out:
     ret
 PrintString ENDP
 
-; ------------------------
-; PrintNumber (EAX)
-; ------------------------
+
 PrintNumber PROC
     sub rsp, 28h
     mov ecx, 10
